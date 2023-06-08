@@ -1,0 +1,23 @@
+.hrefresh {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox-value-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox-value {
+  display: flex;
+  justify-content: space-around;
+}
+
+.checkbox {
+  margin-right: 1rem;
+}
