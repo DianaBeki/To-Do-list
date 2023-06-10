@@ -1,6 +1,3 @@
-![68747470733a2f2f696d672e796f75747562652e636f6d2f76692f416355642d5f596a6a71672f302e6a7067](https://user-images.githubusercontent.com/106747387/230112602-9404e3e1-7fbb-4690-98e3-bbffbf5c314a.jpeg)
-
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
