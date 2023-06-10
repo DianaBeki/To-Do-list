@@ -48,7 +48,8 @@
 - 
 <!-- Live Demo -->
 
-
+ - [Live Demo link](https://dianabeki.github.io/To-Do-list/dist/)
+ 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
