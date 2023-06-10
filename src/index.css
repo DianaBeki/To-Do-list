@@ -3,21 +3,17 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  font-size: .9rem;
 }
 
 body {
-  background-color: #ECE5C7;
+  background-color: #ece5c7;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   margin: 10rem auto;
-  box-shadow: 3px 3px 10px #C38154;
-  border-top: 7px solid black;
-  border-bottom: 7px solid black;
+  box-shadow: 3px 3px 10px #c38154;
   width: 50%;
 }
 
@@ -37,6 +33,7 @@ body {
 .checkbox-value-icon {
   display: flex;
   justify-content: space-between;
+  flex-direction: row-reverse;
   padding: 1rem;
 }
 
@@ -45,12 +42,54 @@ body {
   justify-content: space-around;
 }
 
+.value {
+  outline: none;
+  border: none;
+  padding: 0.8rem;
+  background-color: transparent;
+}
+
 .checkbox {
   margin-right: 1rem;
 }
 
+.addBtn {
+  padding: 0.2rem 0.8rem;
+  border: 1px solid #116a7b;
+  outline: none;
+  background-color: #116a7b;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.save-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid #116a7b;
+  outline: none;
+  background-color: #116a7b;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.delete-btn {
+  padding: 0.3rem 0.8rem;
+  border: 1px solid red;
+  outline: none;
+  background-color: #fff;
+  border-radius: 12px;
+  color: red;
+}
+
+.items {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
 .clearBtn {
   border: none;
+  background-color: #116a7b;
+  color: #fff;
   padding: 1rem 0;
 }
 
