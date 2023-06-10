@@ -1,14 +1,14 @@
 const listContainer = document.querySelector('.list-container');
 let toDo = [];
 
-export function loadFromLocalStorage() {
+export const loadFromLocalStorage = () => {
   const storedList = localStorage.getItem('toDoList');
   if (storedList) {
     toDo = JSON.parse(storedList);
   }
-}
+};
 
-export function renderToDoList() {
+export const renderToDoList = () => {
   listContainer.innerHTML = '';
   toDo.forEach((item) => {
     const div1 = document.createElement('div');
@@ -17,6 +17,7 @@ export function renderToDoList() {
     div2.classList.add('checkbox-value-icon');
     const div3 = document.createElement('div');
     div3.classList.add('checkbox-value');
+
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
     checkbox.classList.add('checkbox');
@@ -27,45 +28,36 @@ export function renderToDoList() {
     });
     const inputField = document.createElement('input');
     inputField.type = 'text';
+    inputField.classList.add('items');
     inputField.value = item.description;
-    const saveBtn = document.createElement('button');
-    saveBtn.textContent = 'Save';
-    saveBtn.addEventListener('click', () => {
-      editTaskDescription(item.index, inputField.value);
-      renderToDoList();
-    });
+    inputField.value = inputField.value.charAt(0).toUpperCase()
+    + inputField.value.slice(1).toLowerCase();
     const deleteBtn = document.createElement('button');
+    deleteBtn.classList.add('delete-btn');
     deleteBtn.textContent = 'Delete';
     deleteBtn.addEventListener('click', () => {
       deleteTask(item.index);
     });
     div3.appendChild(checkbox);
     div3.appendChild(inputField);
-    div3.appendChild(saveBtn);
-    div3.appendChild(deleteBtn);
-    const icon = document.createElement('span');
-    icon.classList.add('material-symbols-outlined');
-    icon.textContent = 'more_vert';
+    div2.appendChild(deleteBtn);
     div2.appendChild(div3);
-    div2.appendChild(icon);
-    const hr = document.createElement('hr');
     div1.appendChild(div2);
-    div1.appendChild(hr);
     listContainer.appendChild(div1);
   });
-}
+};
 
-function updateIndexes() {
+const updateIndexes = () => {
   toDo.forEach((task, index) => {
     task.index = index + 1;
   });
-}
+};
 
-export function saveToLocalStorage() {
+export const saveToLocalStorage = () => {
   localStorage.setItem('toDoList', JSON.stringify(toDo));
-}
+};
 
-export function addTask(description) {
+export const addTask = (description) => {
   const task = {
     description,
     completed: false,
@@ -74,23 +66,24 @@ export function addTask(description) {
   toDo.push(task);
   saveToLocalStorage();
   renderToDoList();
-}
+};
 
-export function deleteTask(index) {
+export const deleteTask = (index) => {
   toDo.splice(index - 1, 1);
   updateIndexes();
   saveToLocalStorage();
   renderToDoList();
-}
+};
 
-export function editTaskDescription(index, newDescription) {
+export const editTaskDescription = (index, newDescription) => {
   toDo[index - 1].description = newDescription;
   saveToLocalStorage();
-}
+  renderToDoList();
+};
 
-export function clearCompletedTasks() {
+export const clearCompletedTasks = () => {
   toDo = toDo.filter((task) => !task.completed);
   updateIndexes();
   saveToLocalStorage();
   renderToDoList();
-}
+};
