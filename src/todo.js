@@ -35,6 +35,7 @@ export function renderToDoList() {
       renderToDoList();
     });
     const deleteBtn = document.createElement('button');
+    deleteBtn.classList.add('.delete');
     deleteBtn.textContent = 'Delete';
     deleteBtn.addEventListener('click', () => {
       deleteTask(item.index);
@@ -46,6 +47,7 @@ export function renderToDoList() {
     const icon = document.createElement('span');
     icon.classList.add('material-symbols-outlined');
     icon.textContent = 'more_vert';
+    icon.style.display = 'none';
     div2.appendChild(div3);
     div2.appendChild(icon);
     const hr = document.createElement('hr');

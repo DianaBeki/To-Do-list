@@ -1,16 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: .9rem;
+}
+
+body {
+  background-color: #ECE5C7;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 10rem auto;
+  box-shadow: 3px 3px 10px #C38154;
+  border-top: 7px solid black;
+  border-bottom: 7px solid black;
+  width: 50%;
+}
+
 .hrefresh {
   display: flex;
   justify-content: space-between;
+  padding: 1rem;
+  color: rgba(0, 0, 0, 0.664);
 }
 
 .input-button {
   display: flex;
   justify-content: space-between;
+  padding: 1rem;
 }
 
 .checkbox-value-icon {
   display: flex;
   justify-content: space-between;
+  padding: 1rem;
 }
 
 .checkbox-value {
@@ -20,4 +47,13 @@
 
 .checkbox {
   margin-right: 1rem;
+}
+
+.clearBtn {
+  border: none;
+  padding: 1rem 0;
+}
+
+.clearBtn:hover {
+  text-decoration: underline;
 }
