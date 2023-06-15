@@ -45,10 +45,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- *Add what to do*
-- *Remove after completed*
-- *Great UI*
-- 
+- **[Add what to do]**
+- **[Remove after completed]**
+- **[Great UI]**
+- **[Add live demo link]**
 <!-- Live Demo -->
 
 
