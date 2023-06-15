@@ -48,7 +48,7 @@
 - **[Remove after completed]**
 - **[Great UI]**
 - **[Add live demo link]**
-- 
+
 <!-- Live Demo -->
 ## 🚀 Live Demo <a name="live-demo"></a>
 
