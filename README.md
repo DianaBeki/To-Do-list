@@ -45,12 +45,15 @@
 
 ### Key Features <a name="key-features"></a>
 
-- *Add what to do*
-- *Remove after completed*
-- *Great UI*
+- **[Add what to do]**
+- **[Remove after completed]**
+- **[Great UI]**
+- **[Add live demo link]**
 - 
 <!-- Live Demo -->
+## 🚀 Live Demo <a name="live-demo"></a>
 
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
