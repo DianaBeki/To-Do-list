@@ -1,4 +1,3 @@
-"use strict";
 /*
  * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
  * This devtool is neither made for production nor for readable output files.
@@ -7,7 +6,9 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-(self["webpackChunkto_do_list"] = self["webpackChunkto_do_list"] || []).push([["index"],{
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({
 
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/index.css":
 /*!*************************************************************!*\
@@ -15,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `.hrefresh {\n  display: flex;\n  justify-content: space-between;\n}\n\n.input-button {\n  display: flex;\n  justify-content: space-between;\n}\n\n.checkbox-value-icon {\n  display: flex;\n  justify-content: space-between;\n}\n\n.checkbox-value {\n  display: flex;\n  justify-content: space-around;\n}\n\n.checkbox {\n  margin-right: 1rem;\n}\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://to-do-list/./src/index.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: 'Roboto', sans-serif;\n}\n\nbody {\n  background-color: #ece5c7;\n}\n\n.container {\n  display: flex;\n  flex-direction: column;\n  margin: 10rem auto;\n  box-shadow: 3px 3px 10px #c38154;\n  width: 50%;\n}\n\n.hrefresh {\n  display: flex;\n  justify-content: space-between;\n  padding: 1rem;\n  color: rgba(0, 0, 0, 0.664);\n}\n\n.input-button {\n  display: flex;\n  justify-content: space-between;\n  padding: 1rem;\n}\n\n.checkbox-value-icon {\n  display: flex;\n  justify-content: space-between;\n  flex-direction: row-reverse;\n  padding: 1rem;\n}\n\n.checkbox-value {\n  display: flex;\n  justify-content: space-around;\n}\n\n.value {\n  outline: none;\n  border: none;\n  padding: 0.8rem;\n  background-color: transparent;\n}\n\n.checkbox {\n  margin-right: 1rem;\n}\n\n.addBtn {\n  padding: 0.2rem 0.8rem;\n  border: 1px solid #116a7b;\n  outline: none;\n  background-color: #116a7b;\n  border-radius: 12px;\n  color: #fff;\n}\n\n.save-btn {\n  padding: 0.5rem 1rem;\n  border: 1px solid #116a7b;\n  outline: none;\n  background-color: #116a7b;\n  border-radius: 12px;\n  color: #fff;\n}\n\n.delete-btn {\n  padding: 0.3rem 0.8rem;\n  border: 1px solid red;\n  outline: none;\n  background-color: #fff;\n  border-radius: 12px;\n  color: red;\n}\n\n.items {\n  border: none;\n  outline: none;\n  background-color: transparent;\n}\n\n.clearBtn {\n  border: none;\n  background-color: #116a7b;\n  color: #fff;\n  padding: 1rem 0;\n}\n\n.clearBtn:hover {\n  text-decoration: underline;\n}\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://to-do-list/./src/index.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -135,13 +136,88 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ind
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   addTask: () => (/* binding */ addTask),\n/* harmony export */   clearCompletedTasks: () => (/* binding */ clearCompletedTasks),\n/* harmony export */   deleteTask: () => (/* binding */ deleteTask),\n/* harmony export */   editTaskDescription: () => (/* binding */ editTaskDescription),\n/* harmony export */   loadFromLocalStorage: () => (/* binding */ loadFromLocalStorage),\n/* harmony export */   renderToDoList: () => (/* binding */ renderToDoList),\n/* harmony export */   saveToLocalStorage: () => (/* binding */ saveToLocalStorage)\n/* harmony export */ });\nconst listContainer = document.querySelector('.list-container');\nlet toDo = [];\n\nfunction loadFromLocalStorage() {\n  const storedList = localStorage.getItem('toDoList');\n  if (storedList) {\n    toDo = JSON.parse(storedList);\n  }\n}\n\nfunction renderToDoList() {\n  listContainer.innerHTML = '';\n  toDo.forEach((item) => {\n    const div1 = document.createElement('div');\n    div1.classList.add('list-wrapper');\n    const div2 = document.createElement('div');\n    div2.classList.add('checkbox-value-icon');\n    const div3 = document.createElement('div');\n    div3.classList.add('checkbox-value');\n    const checkbox = document.createElement('input');\n    checkbox.type = 'checkbox';\n    checkbox.classList.add('checkbox');\n    checkbox.checked = item.completed;\n    checkbox.addEventListener('change', () => {\n      item.completed = checkbox.checked;\n      saveToLocalStorage();\n    });\n    const inputField = document.createElement('input');\n    inputField.type = 'text';\n    inputField.value = item.description;\n    const saveBtn = document.createElement('button');\n    saveBtn.textContent = 'Save';\n    saveBtn.addEventListener('click', () => {\n      editTaskDescription(item.index, inputField.value);\n      renderToDoList();\n    });\n    const deleteBtn = document.createElement('button');\n    deleteBtn.textContent = 'Delete';\n    deleteBtn.addEventListener('click', () => {\n      deleteTask(item.index);\n    });\n    div3.appendChild(checkbox);\n    div3.appendChild(inputField);\n    div3.appendChild(saveBtn);\n    div3.appendChild(deleteBtn);\n    const icon = document.createElement('span');\n    icon.classList.add('material-symbols-outlined');\n    icon.textContent = 'more_vert';\n    div2.appendChild(div3);\n    div2.appendChild(icon);\n    const hr = document.createElement('hr');\n    div1.appendChild(div2);\n    div1.appendChild(hr);\n    listContainer.appendChild(div1);\n  });\n}\n\nfunction updateIndexes() {\n  toDo.forEach((task, index) => {\n    task.index = index + 1;\n  });\n}\n\nfunction saveToLocalStorage() {\n  localStorage.setItem('toDoList', JSON.stringify(toDo));\n}\n\nfunction addTask(description) {\n  const task = {\n    description,\n    completed: false,\n    index: toDo.length + 1,\n  };\n  toDo.push(task);\n  saveToLocalStorage();\n  renderToDoList();\n}\n\nfunction deleteTask(index) {\n  toDo.splice(index - 1, 1);\n  updateIndexes();\n  saveToLocalStorage();\n  renderToDoList();\n}\n\nfunction editTaskDescription(index, newDescription) {\n  toDo[index - 1].description = newDescription;\n  saveToLocalStorage();\n}\n\nfunction clearCompletedTasks() {\n  toDo = toDo.filter((task) => !task.completed);\n  updateIndexes();\n  saveToLocalStorage();\n  renderToDoList();\n}\n\n\n//# sourceURL=webpack://to-do-list/./src/todo.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   addTask: () => (/* binding */ addTask),\n/* harmony export */   clearCompletedTasks: () => (/* binding */ clearCompletedTasks),\n/* harmony export */   deleteTask: () => (/* binding */ deleteTask),\n/* harmony export */   editTaskDescription: () => (/* binding */ editTaskDescription),\n/* harmony export */   loadFromLocalStorage: () => (/* binding */ loadFromLocalStorage),\n/* harmony export */   renderToDoList: () => (/* binding */ renderToDoList),\n/* harmony export */   saveToLocalStorage: () => (/* binding */ saveToLocalStorage)\n/* harmony export */ });\nconst listContainer = document.querySelector('.list-container');\nlet toDo = [];\n\nfunction loadFromLocalStorage() {\n  const storedList = localStorage.getItem('toDoList');\n  if (storedList) {\n    toDo = JSON.parse(storedList);\n  }\n}\n\nfunction renderToDoList() {\n  listContainer.innerHTML = '';\n  toDo.forEach((item) => {\n    const div1 = document.createElement('div');\n    div1.classList.add('list-wrapper');\n    const div2 = document.createElement('div');\n    div2.classList.add('checkbox-value-icon');\n    const div3 = document.createElement('div');\n    div3.classList.add('checkbox-value');\n\n    const checkbox = document.createElement('input');\n    checkbox.type = 'checkbox';\n    checkbox.classList.add('checkbox');\n    checkbox.checked = item.completed;\n    checkbox.addEventListener('change', () => {\n      item.completed = checkbox.checked;\n      saveToLocalStorage();\n    });\n    const inputField = document.createElement('input');\n    inputField.type = 'text';\n    inputField.classList.add('items');\n    inputField.value = item.description;\n    inputField.value = inputField.value.charAt(0).toUpperCase()\n    + inputField.value.slice(1).toLowerCase();\n    const deleteBtn = document.createElement('button');\n    deleteBtn.classList.add('delete-btn');\n    deleteBtn.textContent = 'Delete';\n    deleteBtn.addEventListener('click', () => {\n      deleteTask(item.index);\n    });\n    div3.appendChild(checkbox);\n    div3.appendChild(inputField);\n    div2.appendChild(deleteBtn);\n    div2.appendChild(div3);\n    div1.appendChild(div2);\n    listContainer.appendChild(div1);\n  });\n}\n\nfunction updateIndexes() {\n  toDo.forEach((task, index) => {\n    task.index = index + 1;\n  });\n}\n\nfunction saveToLocalStorage() {\n  localStorage.setItem('toDoList', JSON.stringify(toDo));\n}\n\nfunction addTask(description) {\n  const task = {\n    description,\n    completed: false,\n    index: toDo.length + 1,\n  };\n  toDo.push(task);\n  saveToLocalStorage();\n  renderToDoList();\n}\n\nfunction deleteTask(index) {\n  toDo.splice(index - 1, 1);\n  updateIndexes();\n  saveToLocalStorage();\n  renderToDoList();\n}\n\nfunction editTaskDescription(index, newDescription) {\n  toDo[index - 1].description = newDescription;\n  saveToLocalStorage();\n}\n\nfunction clearCompletedTasks() {\n  toDo = toDo.filter((task) => !task.completed);\n  updateIndexes();\n  saveToLocalStorage();\n  renderToDoList();\n}\n\n\n//# sourceURL=webpack://to-do-list/./src/todo.js?");
 
 /***/ })
 
-},
-/******/ __webpack_require__ => { // webpackRuntimeModules
-/******/ var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-/******/ var __webpack_exports__ = (__webpack_exec__("./src/index.js"));
-/******/ }
-]);
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			id: moduleId,
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/nonce */
+/******/ 	(() => {
+/******/ 		__webpack_require__.nc = undefined;
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module can't be inlined because the eval devtool is used.
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
+/******/ 	
+/******/ })()
+;

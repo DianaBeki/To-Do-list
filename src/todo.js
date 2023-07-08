@@ -17,6 +17,7 @@ export function renderToDoList() {
     div2.classList.add('checkbox-value-icon');
     const div3 = document.createElement('div');
     div3.classList.add('checkbox-value');
+
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
     checkbox.classList.add('checkbox');
@@ -27,30 +28,21 @@ export function renderToDoList() {
     });
     const inputField = document.createElement('input');
     inputField.type = 'text';
+    inputField.classList.add('items');
     inputField.value = item.description;
-    const saveBtn = document.createElement('button');
-    saveBtn.textContent = 'Save';
-    saveBtn.addEventListener('click', () => {
-      editTaskDescription(item.index, inputField.value);
-      renderToDoList();
-    });
+    inputField.value = inputField.value.charAt(0).toUpperCase()
+    + inputField.value.slice(1).toLowerCase();
     const deleteBtn = document.createElement('button');
+    deleteBtn.classList.add('delete-btn');
     deleteBtn.textContent = 'Delete';
     deleteBtn.addEventListener('click', () => {
       deleteTask(item.index);
     });
     div3.appendChild(checkbox);
     div3.appendChild(inputField);
-    div3.appendChild(saveBtn);
-    div3.appendChild(deleteBtn);
-    const icon = document.createElement('span');
-    icon.classList.add('material-symbols-outlined');
-    icon.textContent = 'more_vert';
+    div2.appendChild(deleteBtn);
     div2.appendChild(div3);
-    div2.appendChild(icon);
-    const hr = document.createElement('hr');
     div1.appendChild(div2);
-    div1.appendChild(hr);
     listContainer.appendChild(div1);
   });
 }
